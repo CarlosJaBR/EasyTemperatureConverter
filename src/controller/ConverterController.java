@@ -35,7 +35,7 @@ public class ConverterController implements Initializable{
 		String celsius = celsiusGrade.getText();
 		double celsiusConvert = Double.parseDouble(celsius);
 		double fahGrade = tConverter.celsiusToFahrenheit(celsiusConvert);
-		fahrenheitGrade.setText(fahGrade+"°");
+		fahrenheitGrade.setText(fahGrade+"°F");
 	
 	}
     
